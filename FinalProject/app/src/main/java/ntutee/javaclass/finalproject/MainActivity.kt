@@ -19,6 +19,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        //只是測試
+        //DolphinBlast
     }
 }
