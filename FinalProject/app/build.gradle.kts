@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.dolphinblast.lab7"
+    namespace = "ntutee.javaclass.finalproject"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.dolphinblast.lab7"
+        applicationId = "ntutee.javaclass.finalproject"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
