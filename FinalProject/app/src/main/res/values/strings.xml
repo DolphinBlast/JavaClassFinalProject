@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Lab7</string>
+    <string name="app_name">FinalProject</string>
 
     <integer-array name="image_list">
         <item>@drawable/apple</item>

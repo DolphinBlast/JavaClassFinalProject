@@ -19,7 +19,7 @@
         />
     <TextView
         android:id="@+id/textView"
-        android:text="電流大戰"
+        android:text="電路大戰"
         android:textSize="50sp"
         android:textColor="@color/cardview_light_background"
         android:layout_width="match_parent"
@@ -27,14 +27,36 @@
         android:paddingTop="50pt"
         />
     <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_Start"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Circuit Start!"
+        android:text="開始"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:layout_marginStart="5sp"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_Info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginBottom="20sp"
+        android:text="說明"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_Start"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <Button
+        android:id="@+id/btn_Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5sp"
+        android:layout_marginBottom="20sp"
+        android:text="退出"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/btn_Info"
         app:layout_constraintBottom_toBottomOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
